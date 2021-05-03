@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fd9d2d;
+}
+
+img {
+    padding: 10px;
+    opacity: .8;
+    transition: .5s;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+img:hover {
+    opacity: 1;
+    transform: scale(1.01);
+}
